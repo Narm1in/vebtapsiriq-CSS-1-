@@ -1,0 +1,26 @@
+body{background-color: #333333;}
+.bg {background size: cover;
+	
+	background-repeat: no-repeat;
+		background-position: center center;
+	width: 100%;
+background-image:
+linear-gradient(to top, rgba(37, 137, 189, .5), rgba(252, 222, 190, .7)),
+url("../img/bg.jpg");
+
+	
+	height: 50vh;
+	clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+	
+	}
+	.txt{font-size: 130px;
+		 background: linear-gradient(45deg, #FCDEBE 50%,#2589BD  50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+	
+
+}
+.p-clr{color: blue;font-size: 30px;}
+.clr{color: orange;
+font-size: 30px;}
